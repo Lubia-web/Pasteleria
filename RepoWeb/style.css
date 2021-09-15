@@ -1,0 +1,485 @@
+body {
+    background:#FFC0CB;
+}
+h1 {
+    text-align: center;
+    color:White;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+header {
+    padding: 3px 0 0 0;
+    background:#b0c2f2;
+    height:400px;
+    vertical-align:text-top;
+    
+   
+    
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.encabezado {
+    margin: 30px 0;
+    color: white;
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color:white;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: #17181b;
+    padding: 20px;
+}
+.vacio {
+    padding: 10px;
+    background-color: #ff9c9c;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 228, 255);
+}
+.button {
+    background-color: #ff9c9c;
+    color: rgb(255, 228, 255);
+}
+.historia-panaderia {
+    margin-top: 80px;
+    color:black;
+    
+  
+}
+.contacto-panaderia {
+    margin-top: 80px;
+    color:black;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.barra {
+    padding: 0px 0;
+    /*position: fixed;*/
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+.barra p {
+    margin: 0;
+    color:white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+.icono4 {
+    background-image: url(../img/icono4.png);
+}
+
+#lista-panes .row {
+    margin-bottom: 20px;
+    
+}
+
+.card {
+    text-align: center;
+  
+    background-color:  #FF1493;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contacto-panaderia {
+    margin-top: 40px;
+    padding-top: 40px;
+    background:#FFB6C1;
+    
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+.banner{
+    width: 1010px;
+    height: 750px;
+    border: 3px solid white;
+    margin: auto;
+    
+    background-size: 100% 100%;
+
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes banner{
+    0%, 38% {
+        background-image: url(ban1.jpg);
+        opacity: 1;
+    }
+    31%, 34% {
+        opacity: 0.1;
+    }
+    35%, 65% {
+        background-image: url(ban2.jpg);
+        opacity: 1;
+    }
+    66%, 69% {
+        opacity: 0.1;
+    }
+    70%, 100% {
+        opacity: 1;
+        background-image: url(ban3.jpg);
+    }
+}
+.titul h6{
+    font-size: 5em;
+    margin: 1em;
+    font-family: Pacifico;
+    text-shadow:   1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.5),
+    1px 25px 35px rgba(16,16,16,0.5),
+    1px 30px 60px rgba(16,16,16,0.5);
+    color:White;
+    
+
+}
+
+.row h6:hover{
+    font-family: Pacifico;
+    transition: all .9s;
+    letter-spacing: 2px;
+  
+}
+.formulario-panaderia {
+    padding: 20px 0;
+    background:#FFC0CB;
+    
+}
+
+
+#menu ul {
+    list-style: none;
+    margin: 16px;
+    padding: 0;
+  }
+  #menu li {
+    display: inline-block;
+  }
+  #menu a {
+    display: block;
+    padding: 6px 16px;
+    background-color:#DDA0DD;
+    color: #3c3c3c;
+    text-decoration: none;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.45);
+  }
+    #menu a:hover {
+      color: #000;
+      background-color: rgb(175, 238, 238);
+      box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.45);
+      
+    }
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+    color:#f45572;
+}
+
+
+.cont{
+    height: 30vw;
+    width: 30vw;
+    perspective: 70vw;
+    margin: 15vw 30vh;
+}
+.caja{
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    animation: rotacion 10s infinite linear ;
+}
+.lado{
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    background-color: white;
+    position: absolute;
+}
+
+.la{
+    height: 100%;
+    width: 100%;
+    transform-origin: top;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+@keyframes rotacion{
+    100%{
+        transform: rotateY(360deg) rotateZ(360deg);
+    }
+}
+
+:root{
+    --trans: translateZ(15vw)
+}
+
+.lado:nth-child(1){
+    transform: rotateY(0deg) var(--trans)
+}
+
+.lado:nth-child(2){
+    transform: rotateY(180deg) rotateZ(90deg) var(--trans)
+}
+
+.lado:nth-child(3){
+    transform: rotateY(90deg) rotateZ(90deg) var(--trans)
+}
+
+.lado:nth-child(4){
+    transform: rotateY(90deg) translateZ(-30vw) var(--trans)
+}
+
+.lado:nth-child(5){
+    transform: rotateX(90deg) var(--trans)
+}
+
+.lado:nth-child(6){
+    transform: rotateX(-90deg) translateZ(15vw)
+    
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  body {
+    font-family: arial;
+  }
+  
+  .form-login {
+    width: 30%;
+    height: 60%;
+    background: #f45572;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 2px solid white;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid #FF1493;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(135deg, #fdfd96, #fabfb7);
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+  }
+  #boton:hover{
+    background: #95fab9;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+  #contraseña{
+        background-color: white;
+        background-position: 400px 5px;
+        background-size: 30px 30px;
+        padding-left: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        box-shadow: 0px 0px 19px 5px rgba(255,255,255,0.9);
+        transition: all .5s;
+    }
+    #email{
+        background-color: white;
+        box-shadow: 0px 0px 19px 5px rgba(255,255,255,0.9);
+        background-position: 400px 4px;
+        background-size: 30px 30px;
+        padding-left: 15px;
+    }
+    @media (max-width: 584px) {
+      .form-login {
+    width: 90%;
+    height: 60%;
+    background: #f45572 ;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 2px solid white;
+    color: white;
+    border-radius: 10px;
+  }
+      #contraseña{
+        background-color: white;
+        
+        background-position: 200px 5px;
+        background-size: 30px 30px;
+        padding-left: 15px;
+    }
+    #email{
+        background-color: white;
+       
+        background-position: 200px 4px;
+        background-size: 30px 30px;
+        padding-left: 15px;
+    }
+
+        }
+.logo{
+    width: 30%;
+    height: 30%;
+    margin: -135px;
+    text-align: center;
+    
+}
+
+
+
